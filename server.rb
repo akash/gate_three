@@ -13,4 +13,8 @@ class GateThree < Sinatra::Base
 		eval(code).to_s
 	end
 
+	get '/clue_two' do
+		418
+	end
+
 end
